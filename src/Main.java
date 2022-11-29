@@ -47,6 +47,7 @@ public class Main {
         return checkNr;
     }
 
+    //Generate IBAN
     static String Iban(String country, String bankCode, String accountNumber) {
         String iban =  country +  CheckNumber(country, bankCode, accountNumber) + bankCode + FillAccountNumber(accountNumber);
         char[] ibanArray = iban.toCharArray();
