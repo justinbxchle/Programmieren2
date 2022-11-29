@@ -56,7 +56,6 @@ public class Main {
         for (int i = 0; i < ibanArraySpace.length; i++) {
             if (count1 == 4) {
                 ibanArraySpace[i] = ' ';
-                System.out.println("hllo");
                 count1 = 0;
                 count2++;
                 i++;
