@@ -61,7 +61,6 @@ public class Main {
                 count2++;
                 i++;
             }
-            System.out.println(i);
             ibanArraySpace[i] = ibanArray[i-count2];
             iban = String.valueOf(ibanArraySpace);
             count1++;
